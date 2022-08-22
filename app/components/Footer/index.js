@@ -85,11 +85,11 @@ function Footer() {
             <Logo src={YearnLogo} alt="Yearn" />
           </TopLeft>
           <TopRight>
-            <a href="https://twitter.com/iearnfinance" target="_blank">
+            <a href="https://twitter.com/candle_labs" target="_blank">
               <Logo src={TwitterLogo} alt="" />
             </a>
             <a
-              href="https://github.com/yearn/yearn-finance.git"
+              href="https://github.com/colefinance/yearn-finance.git"
               target="_blank"
             >
               <Logo src={GithubLogo} alt="" />
@@ -111,7 +111,7 @@ function Footer() {
               <Logo src={AlchemyLogo} alt="" />
             </a>
           </BottomLeft>
-          <BottomRight>{`Copyright © yearn ${currentYear}. All rights reserved.`}</BottomRight>
+          <BottomRight>{`Copyright © Candle Labs, Inc. ${currentYear}. All rights reserved.`}</BottomRight>
         </Bottom>
       </FooterInner>
     </Wrapper>
